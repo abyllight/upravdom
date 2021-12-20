@@ -3,6 +3,7 @@ const services = [
         id: 1,
         title: 'Домофон',
         img: '',
+        showDiv: false,
         companies: [
             {
                 id: 1,
@@ -88,6 +89,7 @@ const services = [
         id: 2,
         title: 'Сантехника',
         img: '',
+        showDiv: false,
         companies: [
             {
                 id: 1,
@@ -140,12 +142,14 @@ const services = [
     {
         id: 3,
         title: 'Полотенцесушители',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 4,
         title: 'Электрика',
         img: '',
+        showDiv: false,
         companies: [
             {
                 id: 1,
@@ -212,73 +216,86 @@ const services = [
     {
         id: 5,
         title: 'Приборы учета',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 6,
         title: 'Промышленный альпинизм',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 7,
         title: 'Противопожарные системы',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 8,
         title: 'Проекты/ ТУ',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 9,
         title: 'Радиаторы',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 10,
         title: 'Ремонт квартир',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 11,
         title: 'ПИК-Ремонт',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 12,
         title: 'Утилизация крупной бытовой техники',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 13,
         title: 'Охрана квартир',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 14,
         title: 'Хранение вещей',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 15,
         title: 'Машиноместа и кладовые',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 16,
         title: 'Сдача квартиры в аренду',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 17,
         title: 'Кондиционеры и вентиляция',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 18,
         title: 'Клининг',
         img: '',
-        has_only_companies: false,
+        showDiv: false,
         companies: [
             {
                 id: 1,
@@ -398,27 +415,32 @@ const services = [
     {
         id: 19,
         title: 'Страхование',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 20,
         title: 'Установка дверей',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 21,
         title: 'Установка окон',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 22,
         title: 'Химчистка',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 23,
         title: 'Маляры и Штукатуры',
         img: '',
+        showDiv: false,
         companies: [
             {
                 id: 1,
@@ -478,27 +500,32 @@ const services = [
     {
         id: 24,
         title: 'Дезинфекция',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 25,
         title: 'Ремонт бытовой техники',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 26,
         title: 'Юридические услуги',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 27,
         title: 'Оценка недвижимости',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 28,
         title: 'Перевозка грузов',
         img: '',
+        showDiv: false,
         companies: [
             {
                 id: 1,
@@ -572,18 +599,21 @@ const services = [
     {
         id: 29,
         title: 'Ремонт компьютеров',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 30,
         title: 'Ремонт одежды и обуви',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 31,
         title: 'Доставка воды',
         img: '',
         has_only_companies: true,
+        showDiv: false,
         companies: [
             {
                 id: 1,
@@ -674,17 +704,20 @@ const services = [
     {
         id: 32,
         title: 'Продвижение вашего бизнеса',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 33,
         title: 'Профессиональная просушка',
-        img: ''
+        img: '',
+        showDiv: false,
     },
     {
         id: 34,
         title: 'Умный дом',
-        img: ''
+        img: '',
+        showDiv: false,
     }
 ]
 
