@@ -477,43 +477,6 @@ const services = [
         img: '',
         showDiv: false,
     },
-
-    {
-        id: 3,
-        title: 'Полотенцесушители',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 5,
-        title: 'Приборы учета',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 6,
-        title: 'Промышленный альпинизм',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 7,
-        title: 'Противопожарные системы',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 8,
-        title: 'Проекты/ ТУ',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 9,
-        title: 'Радиаторы',
-        img: '',
-        showDiv: false,
-    },
     {
         id: 10,
         title: 'Ремонт квартир',
@@ -521,62 +484,8 @@ const services = [
         showDiv: false,
     },
     {
-        id: 11,
-        title: 'ПИК-Ремонт',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 12,
-        title: 'Утилизация крупной бытовой техники',
-        img: '',
-        showDiv: false,
-    },
-    {
         id: 13,
         title: 'Охрана квартир',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 14,
-        title: 'Хранение вещей',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 15,
-        title: 'Машиноместа и кладовые',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 16,
-        title: 'Сдача квартиры в аренду',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 17,
-        title: 'Кондиционеры и вентиляция',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 19,
-        title: 'Страхование',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 20,
-        title: 'Установка дверей',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 21,
-        title: 'Установка окон',
         img: '',
         showDiv: false,
     },
@@ -593,53 +502,11 @@ const services = [
         showDiv: false,
     },
     {
-        id: 25,
-        title: 'Ремонт бытовой техники',
-        img: '',
-        showDiv: false,
-    },
-    {
         id: 26,
         title: 'Юридические услуги',
         img: '',
         showDiv: false,
     },
-    {
-        id: 27,
-        title: 'Оценка недвижимости',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 29,
-        title: 'Ремонт компьютеров',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 30,
-        title: 'Ремонт одежды и обуви',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 32,
-        title: 'Продвижение вашего бизнеса',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 33,
-        title: 'Профессиональная просушка',
-        img: '',
-        showDiv: false,
-    },
-    {
-        id: 34,
-        title: 'Умный дом',
-        img: '',
-        showDiv: false,
-    }
 ]
 
 export default services
