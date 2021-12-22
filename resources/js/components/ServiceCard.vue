@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div
+        <div ref="box"
             @click="openDiv"
             class="border relative flex flex-col justify-center items-center text-center p-3 h-48 md:h-56 cursor-pointer hover:bg-gray-100"
         >
@@ -62,12 +62,11 @@ export default {
     }),
     methods: {
         openDiv(){
-            /*if (this.service.has_only_companies) {
-                let link = this.$router.resolve({name: 'Companies', params: { id: this.service.id}})
-                window.open(link.href, '_self')
-                return
-            }*/
             this.$emit('show-div', this.service.id)
+
+            let element = this.$refs.box;
+            let top = element.offsetTop;
+            window.scrollTo(0, top);
         },
         closeDiv(){
             this.$emit('close-div')

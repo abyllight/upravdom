@@ -869,7 +869,7 @@ const services = [
                 specialists: []
             }
         ]
-    },
+    }
 ]
 
 export default services
