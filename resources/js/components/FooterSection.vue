@@ -30,7 +30,7 @@
                             </div>
                             <div>
                                 <p class="font-medium text-footer-label mb-1">Телефон</p>
-                                <a href="tel:+77084224242">+7 (777) 777 - 77 - 77</a>
+                                <a href="tel:+77019103491">+7 (701) 910 34 91</a>
                             </div>
                         </div>
                     </div>
