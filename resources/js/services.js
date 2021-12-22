@@ -200,45 +200,6 @@ const services = [
                         link: 'https://naimi.kz/specialist/326328?work_id=134#/'
                     }
                 ]
-            },
-            {
-                id: 2,
-                name: 'OLX.kz',
-                logo: '/images/olx.kz.png',
-                description: 'Lorem Ipsum is simply dummy text of the printing ' +
-                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
-                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: [
-                    {
-                        id: 1,
-                        name: 'Ryan Tompson',
-                        avatar: '/avatars/s1.jpg',
-                        price: 1000,
-                        link: 'https://naimi.kz/specialist/374094?work_id=134#/'
-                    },
-                    {
-                        id: 2,
-                        name: 'Romina Hadid',
-                        avatar: '/avatars/s2.jpg',
-                        price: 1000,
-                        link: 'https://naimi.kz/specialist/374094?work_id=134#/'
-                    },
-                    {
-                        id: 3,
-                        name: 'Alexa Smith',
-                        avatar: '/avatars/s3.jpg',
-                        price: 1000,
-                        link: 'https://naimi.kz/specialist/374094?work_id=134#/'
-                    },
-                    {
-                        id: 4,
-                        name: 'Jenna Kardi',
-                        avatar: '/avatars/s4.png',
-                        price: 1000,
-                        link: 'https://naimi.kz/specialist/374094?work_id=134#/'
-                    }
-                ]
             }
         ]
     },
@@ -308,73 +269,79 @@ const services = [
         title: 'Перевозка грузов',
         img: '',
         showDiv: false,
+        has_only_companies: true,
         companies: [
             {
                 id: 1,
-                name: 'Naimi.kz',
-                logo: '/images/naimi.kz.png',
+                name: 'KL Logistic',
+                logo: '/images/icon.png',
+                link: 'https://kl-logistic.kz/?utm_source=google-ads&utm_medium=cpc&utm_campaign=10833704063&utm_content=112267036448-456560684579-&utm_term=перевозка%20грузов-e',
+                price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
                     'and scrambled it to make a type specimen book.',
-                specialists: [
-                    {
-                        id: 1,
-                        name: 'Габдул-Газиз Алим',
-                        avatar: '/avatars/s1.jpg',
-                        price: 5000,
-                        link: 'https://naimi.kz/specialist/691732?work_id=1436#/'
-                    },
-                    {
-                        id: 2,
-                        name: 'Руслан Алтаев',
-                        avatar: '/avatars/s2.jpg',
-                        price: 6000,
-                        link: 'https://naimi.kz/specialist/80762?work_id=1436#/'
-                    },
-                    {
-                        id: 3,
-                        name: 'Жасулан Молдай',
-                        avatar: '/avatars/s3.jpg',
-                        price: 5000,
-                        link: 'https://naimi.kz/specialist/139998?work_id=1436#/'
-                    },
-                    {
-                        id: 4,
-                        name: 'Айбек Ажибек',
-                        avatar: '/avatars/s4.png',
-                        price: 4000,
-                        link: 'https://naimi.kz/specialist/477389?work_id=1436#/'
-                    },
-                    {
-                        id: 5,
-                        name: 'Серикбол Маралов',
-                        avatar: '/avatars/s5.jpeg',
-                        price: 4000,
-                        link: 'https://naimi.kz/specialist/698719?work_id=1437#/'
-                    },
-                    {
-                        id: 6,
-                        name: 'Артур Нурабилов',
-                        avatar: '/avatars/s6.jpeg',
-                        price: 4000,
-                        link: 'https://naimi.kz/specialist/289722?work_id=1437#/'
-                    },
-                    {
-                        id: 7,
-                        name: 'Галым Колхозбеков',
-                        avatar: '/avatars/s7.jpeg',
-                        price: 4000,
-                        link: 'https://naimi.kz/specialist/331742?work_id=1437#/'
-                    },
-                    {
-                        id: 8,
-                        name: 'Умирбек Жылкаманов',
-                        avatar: '/avatars/s8.jpeg',
-                        price: 4000,
-                        link: 'https://naimi.kz/specialist/218834?work_id=1437#/'
-                    }
-                ]
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'Скороход',
+                logo: '/images/skorohod.png',
+                link: 'http://skorohod.com.kz',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 3,
+                name: 'OLX',
+                logo: '/images/olx.kz.png',
+                link: 'https://www.olx.kz/d/obyavlenie/gruzoperevozki-almaty-vyvoz-musora-uslugi-gazeli-dostavka-pereezd-24ch-IDlByCZ.html#9a5a174207;promoted',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 4,
+                name: 'Alphard Trans',
+                logo: '/images/icon.png',
+                link: 'https://alphardtrans.kz/?utm_source=google&utm_medium=cpc&utm_campaign=12123864411&utm_content=492681171079&utm_term=услуги%20по%20перевозке%20грузов&gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9GxNPwo76nLO0mGlv4aUkoj24S6Ilc2XggmE8LEmgx54YiuYFsr7uAaAm6vEALw_wcB',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 5,
+                name: 'Fart Logistic',
+                logo: '/images/icon.png',
+                link: 'https://fartlogistic.kz/?gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9Hojj1ASSGoVrzxSLDrVGJDlFEAKKqtbfQMQ4bwAwxJgL9DChupP4EaAkpeEALw_wcB',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 6,
+                name: 'Transpark',
+                logo: '/images/transpark.png',
+                link: 'https://gruzoperevozkialmaty.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
             }
         ]
     },
@@ -475,37 +442,433 @@ const services = [
         id: 1,
         title: 'Домофон',
         img: '',
+        has_only_companies: true,
         showDiv: false,
+        companies: [
+            {
+                id: 1,
+                name: 'MTZ Security',
+                logo: '/images/icon.png',
+                link: 'https://mtz.security.kz/ru/domofon/?gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9H6mthEuBonlSpDaz226WPC8UEoIHzsGBtDNjqa9AQPvJQZ_5uEHj8aAmYKEALw_wcB',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'FASL',
+                logo: '/images/icon.png',
+                link: 'https://fasl.satu.kz/contacts',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 3,
+                name: 'Atlant Security',
+                logo: '/images/atlant.png',
+                link: 'https://atlantsecurity.kz',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 4,
+                name: 'Eco Service',
+                logo: '/images/ecoservice.svg',
+                link: 'https://eco-service.kz/domofon/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 5,
+                name: 'Ваш Домофон',
+                logo: '/images/vashdomofon.svg',
+                link: 'https://vashdomofon.kz',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
     },
     {
         id: 10,
         title: 'Ремонт квартир',
         img: '',
         showDiv: false,
+        has_only_companies: true,
+        companies: [
+            {
+                id: 1,
+                name: 'ACG',
+                logo: '/images/adiletgroup.png',
+                link: 'https://adiletgroup.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'AINN',
+                logo: '/images/ainn.png',
+                link: 'https://www.ainn.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 3,
+                name: 'Aztec',
+                logo: '/images/aztec.webp',
+                link: 'https://otdelka-almaty.kz/remont-kvartir-v-almaty.html',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 4,
+                name: 'Идеал ремонт',
+                logo: '/images/idaelremont.svg',
+                link: 'https://ideal-remont.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 5,
+                name: 'Barsha.kz',
+                logo: '/images/icon.png',
+                link: 'https://barsha.kz/remont-kvartir-almaty',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
     },
     {
         id: 13,
         title: 'Охрана квартир',
         img: '',
         showDiv: false,
+        has_only_companies: true,
+        companies: [
+            {
+                id: 1,
+                name: 'Кузет',
+                logo: '/images/kuzet.png',
+                link: 'https://aokuzet.kz/service/homesecurity/?utm_source=adwords_poisk_almaty&utm_campaign=ohrana_kvartiry_2&utm_term=%2B%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B0%20%2B%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B%20%2B%D0%B0%D0%BB%D0%BC%D0%B0%D1%82%D1%8B&gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9FzQ-ZMLqzk6mqmJv441NJ8txNn8AGYiPZNtJzSCrgAQRJzXVTtecAaAgJJEALw_wcB',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'Quzet.kz',
+                logo: '/images/quzet.gif',
+                link: 'https://quzet.kz/?gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9HkFkwIV6XEj1YNjrHZiQB--hfIk_3cRwSbbjwJ6EXWYOjvvfS4NnYaArCwEALw_wcB#contacty',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 3,
+                name: 'Kaz-kuzet',
+                logo: '/images/kazkuzet.png',
+                link: 'https://kaz-kuzet.kz/?utm_source=google&utm_medium=cpc&utm_term=охрана%20квартир%20алматы&utm_content=502262418185&utm_campaign=gl-search&gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9GbmgJeVRnKSw_rv19HJvWJgPOltMBrzeYONMJrPiN4KwhFj4xStIEaAkXVEALw_wcB',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
     },
     {
         id: 22,
         title: 'Химчистка',
         img: '',
         showDiv: false,
+        has_only_companies: true,
+        companies: [
+            {
+                id: 1,
+                name: 'Белоснежка',
+                logo: '/images/belosnezhka.gif',
+                link: 'https://himchistka-almaty.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'Grand Clean',
+                logo: '/images/icon.png',
+                link: 'https://grandclean.kz',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 3,
+                name: 'Eco Dry',
+                logo: '/images/icon.png',
+                link: 'http://www.ecodry.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 4,
+                name: 'Flamingo',
+                logo: '/images/flamingo.png',
+                link: 'https://flamclean.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 5,
+                name: 'Panda',
+                logo: '/images/panda.png',
+                link: 'http://himpanda.kz/adresa-i-kontakty/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
     },
     {
         id: 24,
         title: 'Дезинфекция',
         img: '',
         showDiv: false,
+        has_only_companies: true,
+        companies: [
+            {
+                id: 1,
+                name: 'ДезГарант',
+                logo: '/images/dezgarant.png',
+                link: 'https://dezgarant.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'DST',
+                logo: '/images/dst.png',
+                link: 'https://ds.dstrade.kz/?utm_source=google-ads&utm_medium=cpc&utm_campaign=%D0%94%D0%B5%D0%B7%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_New&utm_content=120851665376-512442646978-&utm_term=%D0%B4%D0%B5%D0%B7%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%B0%D0%BB%D0%BC%D0%B0%D1%82%D1%8B-p',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 3,
+                name: 'AATOMY.kz',
+                logo: '/images/icon.png',
+                link: 'https://www.aatomy.kz/?gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9GriZNo-YvNyoXe5QGgFCKoDACnuj-KBYKtje4467uyBNYewUkxu1UaArgJEALw_wcB',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 4,
+                name: 'AST-DEZ',
+                logo: '/images/ast-dez.png',
+                link: 'https://dezsluzhba.kz/?utm_source=google_search_almaty&utm_medium=cpc&utm_campaign=dz_desktop&utm_term=%D0%B4%D0%B5%D0%B7%D0%B8%D0%BD%D1%84%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%20%D0%B0%D0%BB%D0%BC%D0%B0%D1%82%D1%8B&gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9HVjK9XywGGx5Ox1jLNmpHvGJU5FIGMwbwDa252SRCAhX18ZGeJ2X0aAqM6EALw_wcB#2',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
     },
     {
         id: 26,
         title: 'Юридические услуги',
         img: '',
         showDiv: false,
+        has_only_companies: true,
+        companies: [
+            {
+                id: 1,
+                name: 'ZAN.BAR',
+                logo: '/images/icon.png',
+                link: 'https://zan.bar/ru',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
+    },
+    {
+        id: 32,
+        title: 'Доставка еды',
+        img: '',
+        showDiv: false,
+        has_only_companies: true,
+        companies: [
+            {
+                id: 1,
+                name: 'Chicken Em',
+                logo: '/images/chicken.png',
+                link: 'https://chickenem.kz/#footer',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'Glovo',
+                logo: '/images/glovo.svg',
+                link: 'https://glovoapp.com/kz/ru/nur-sultan/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 3,
+                name: 'Basilic',
+                logo: '/images/basilic.jpeg',
+                link: 'https://ala.basilic.kz/dostavka_edu_almaty/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 4,
+                name: 'Chocofood',
+                logo: '/images/icon.png',
+                link: 'https://chocofood.kz/ru/5fd71d6a155b90895840669c',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 5,
+                name: 'Wolt',
+                logo: '/images/icon.png',
+                link: 'https://wolt.com/ru/discovery',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
+    },
+    {
+        id: 33,
+        title: 'Онлайн супермаркет',
+        img: '',
+        showDiv: false,
+        has_only_companies: true,
+        companies: [
+            {
+                id: 1,
+                name: 'Арбуз',
+                logo: '/images/arbuz.png',
+                link: 'https://arbuz.kz/?utm_source=google-ads&utm_medium=cpc&utm_campaign=%D0%91%D1%80%D0%B5%D0%BD%D0%B4&utm_content=116358685362-484980409399-&utm_term=arbuz.kz-p&gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9HZSFBqC5tlvRbU27qQ40L5Cz0QjpMAH5ewPg0NlHddkRVmB7eWWa4aAvTxEALw_wcB#/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            },
+            {
+                id: 2,
+                name: 'Рядом',
+                logo: '/images/ryadom.svg',
+                link: 'https://ryadom.kz/',
+                price: 900,
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.',
+                specialists: []
+            }
+        ]
     },
 ]
 

@@ -3,16 +3,16 @@
         <div>
             <a class="flex items-center gap-2 cursor-pointer">
                 <img src="/images/location.svg" class="w-7"/>
-                <p class="hidden md:block">Астана</p>
+                <p class="hidden md:block">Алматы</p>
             </a>
         </div>
         <router-link to="/" class="cursor-pointer">
             <img :src="logo" class="w-8 md:w-28">
         </router-link>
         <div>
-            <a class="flex items-center gap-3 cursor-pointer" href="tel:+77777777777">
+            <a class="flex items-center gap-3 cursor-pointer" href="tel:+77019103491">
                 <img src="/images/phone.svg" class="w-7"/>
-                <p class="text-lg hidden md:block">+7 (777) 777 77 77</p>
+                <p class="text-lg hidden md:block">+7 (701) 910 34 91</p>
             </a>
         </div>
     </div>
