@@ -22,8 +22,8 @@
 export default {
     name: "Navbar",
     data: () => ({
-        logo_sm: '/images/icon.png',
-        logo_lg: '/images/logo3.png'
+        logo_sm: '/images/logo/icon.png',
+        logo_lg: '/images/logo/logo3.png'
     }),
     computed:{
         logo(){

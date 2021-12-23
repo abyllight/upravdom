@@ -19,7 +19,7 @@
                         target="_blank"
                     >
                         <div class="flex items-center">
-                            <img :src="specialist.avatar" class="rounded shadow-md w-20 hover:scale-105"/>
+                            <img :src="specialist.avatar" class="rounded w-20 hover:scale-105"/>
                             <div class="ml-3">
                                 <p class="text-lg leading-tight mb-1">{{specialist.name}}</p>
                                 <p class="font-light">от {{specialist.price}}тг</p>

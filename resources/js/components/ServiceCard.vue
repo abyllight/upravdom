@@ -4,7 +4,7 @@
             @click="openDiv"
             class="border relative flex flex-col justify-center items-center text-center p-3 h-48 md:h-56 cursor-pointer hover:bg-gray-100"
         >
-            <img src="/images/settings.svg" class="text-gray-200"/>
+            <img :src="service.img" class="w-16"/>
             <p class="text-base mt-3">{{service.title}}</p>
             <transition name="slide">
                 <div v-if="service.showDiv" class="w-12 overflow-hidden inline-block absolute -bottom-2">
