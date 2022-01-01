@@ -2,7 +2,7 @@
     <div>
         <div ref="box"
             @click="openDiv"
-            class="border relative flex flex-col justify-center items-center text-center p-3 h-48 md:h-56 cursor-pointer hover:bg-gray-100"
+            class="relative rounded-md shadow-md flex flex-col justify-center items-center text-center p-3 h-48 md:h-56 cursor-pointer bg-white hover:scale-105"
         >
             <img :src="service.img" class="w-16"/>
             <p class="text-base mt-3">{{service.title}}</p>
@@ -13,7 +13,7 @@
             </transition>
         </div>
         <transition name="slide">
-            <div v-if="service.showDiv" class="absolute z-10 inset-x-0 text-white px-4 pt-6 pb-12 bg-gray-700">
+            <div v-if="service.showDiv" class="absolute z-10 inset-x-0 text-white px-4 pt-6 pb-12 bg-gray-700 rounded-md">
                 <div class="w-full my-1">
                     <div class="flex justify-between items-center">
                         <p class="text-2xl mb-8">{{service.title}}</p>
