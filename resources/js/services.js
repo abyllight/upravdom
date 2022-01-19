@@ -274,7 +274,7 @@ const services = [
             {
                 id: 1,
                 name: 'KL Logistic',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/transportation.png',
                 link: 'https://kl-logistic.kz/?utm_source=google-ads&utm_medium=cpc&utm_campaign=10833704063&utm_content=112267036448-456560684579-&utm_term=перевозка%20грузов-e',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -310,7 +310,7 @@ const services = [
             {
                 id: 4,
                 name: 'Alphard Trans',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/transportation.png',
                 link: 'https://alphardtrans.kz/?utm_source=google&utm_medium=cpc&utm_campaign=12123864411&utm_content=492681171079&utm_term=услуги%20по%20перевозке%20грузов&gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9GxNPwo76nLO0mGlv4aUkoj24S6Ilc2XggmE8LEmgx54YiuYFsr7uAaAm6vEALw_wcB',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -322,7 +322,7 @@ const services = [
             {
                 id: 5,
                 name: 'Fart Logistic',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/transportation.png',
                 link: 'https://fartlogistic.kz/?gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9Hojj1ASSGoVrzxSLDrVGJDlFEAKKqtbfQMQ4bwAwxJgL9DChupP4EaAkpeEALw_wcB',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -448,7 +448,7 @@ const services = [
             {
                 id: 1,
                 name: 'MTZ Security',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/domofon.png',
                 link: 'https://mtz.security.kz/ru/domofon/?gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9H6mthEuBonlSpDaz226WPC8UEoIHzsGBtDNjqa9AQPvJQZ_5uEHj8aAmYKEALw_wcB',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -460,7 +460,7 @@ const services = [
             {
                 id: 2,
                 name: 'FASL',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/domofon.png',
                 link: 'https://fasl.satu.kz/contacts',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -565,7 +565,7 @@ const services = [
             {
                 id: 5,
                 name: 'Barsha.kz',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/renovation.png',
                 link: 'https://barsha.kz/remont-kvartir-almaty',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -643,7 +643,7 @@ const services = [
             {
                 id: 2,
                 name: 'Grand Clean',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/dry_cleaning.png',
                 link: 'https://grandclean.kz',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -655,7 +655,7 @@ const services = [
             {
                 id: 3,
                 name: 'Eco Dry',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/dry_cleaning.png',
                 link: 'http://www.ecodry.kz/',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -724,7 +724,7 @@ const services = [
             {
                 id: 3,
                 name: 'AATOMY.kz',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/disinfection.png',
                 link: 'https://www.aatomy.kz/?gclid=Cj0KCQiAk4aOBhCTARIsAFWFP9GriZNo-YvNyoXe5QGgFCKoDACnuj-KBYKtje4467uyBNYewUkxu1UaArgJEALw_wcB',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -757,7 +757,7 @@ const services = [
             {
                 id: 1,
                 name: 'ZAN.BAR',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/law.png',
                 link: 'https://zan.bar/ru',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -814,7 +814,7 @@ const services = [
             {
                 id: 4,
                 name: 'Chocofood',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/food_delivery.png',
                 link: 'https://chocofood.kz/ru/5fd71d6a155b90895840669c',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
@@ -826,7 +826,7 @@ const services = [
             {
                 id: 5,
                 name: 'Wolt',
-                logo: '/images/brands/icon.png',
+                logo: '/images/icons/food_delivery.png',
                 link: 'https://wolt.com/ru/discovery',
                 price: 900,
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +

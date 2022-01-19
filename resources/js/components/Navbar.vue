@@ -1,19 +1,20 @@
 <template>
-    <div class="py-6 px-3 max-w-7xl mx-auto flex items-center justify-between">
-        <div>
-            <a class="flex items-center gap-2 cursor-pointer">
-                <img src="/images/location.svg" class="w-7"/>
-                <p class="hidden md:block">Алматы</p>
-            </a>
-        </div>
-        <router-link to="/" class="cursor-pointer">
-            <img :src="logo" class="w-8 md:w-28">
-        </router-link>
-        <div>
-            <a class="flex items-center gap-3 cursor-pointer" href="tel:+77019103491">
-                <img src="/images/phone.svg" class="w-7"/>
-                <p class="text-lg hidden md:block">+7 (701) 910 34 91</p>
-            </a>
+    <div class="w-full bg-gray-200 shadow">
+        <div class="py-5 px-4 max-w-7xl mx-auto flex gap-x-10 items-center">
+            <router-link to="/" class="cursor-pointer">
+                <img :src="logo" class="w-8 md:w-28">
+            </router-link>
+            <div class="flex items-center justify-between w-full">
+                <div>
+                    <router-link to="/" class="cursor-pointer hover:text-orange-400">
+                        Услуги для дома
+                    </router-link>
+                </div>
+                <a class="flex items-center gap-2 cursor-pointer">
+                    <img src="/images/location.svg" class="w-7"/>
+                    <p class="hover:text-orange-400">Алматы</p>
+                </a>
+            </div>
         </div>
     </div>
 </template>

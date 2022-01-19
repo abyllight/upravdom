@@ -67,7 +67,8 @@ export default {
 
             let element = this.$refs.box;
             let top = element.offsetTop;
-            window.scrollTo(0, top);
+
+            window.scrollTo(0, top + 480);
         },
         closeDiv(){
             this.$emit('close-div')
