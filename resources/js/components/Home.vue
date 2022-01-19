@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="s">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 relative">
             <ServiceCard v-for="service in services" :key="service.id" :service="service" @show-div="showDiv" @close-div="closeDiv"/>
         </div>

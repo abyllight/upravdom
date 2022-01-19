@@ -6,7 +6,7 @@
             </router-link>
             <div class="flex items-center justify-between w-full">
                 <div>
-                    <router-link to="/" class="cursor-pointer hover:text-orange-400">
+                    <router-link :to="{name: 'Home', hash: '#s'}" class="cursor-pointer hover:text-orange-400">
                         Услуги для дома
                     </router-link>
                 </div>

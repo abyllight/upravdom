@@ -1,7 +1,7 @@
 <template>
     <Navbar/>
     <Banner/>
-    <div class="max-w-7xl px-4 mx-auto">
+    <div id="services" class="max-w-7xl px-4 mx-auto">
         <router-view/>
     </div>
     <FooterSection/>
