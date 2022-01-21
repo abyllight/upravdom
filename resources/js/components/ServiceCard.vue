@@ -23,27 +23,27 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10">
                     <div v-for="company in service.companies">
-                        <div v-if="service.has_only_companies">
-                            <a :href="company.link" target="_blank">
-                                <div class="flex flex-col justify-center items-center gap-2">
-                                    <img :src="company.logo" class="h-12 rounded"/>
-                                    <p>{{company.name}}</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div v-else>
+                        <div v-if="company.specialists">
                             <router-link :to="{ name: 'Specialists', params: { id: service.id, c_id: company.id } }">
                                 <div
                                     v-if="company.specialists"
                                     class="flex items-center gap-2"
                                 >
-                                    <img :src="company.logo" class="h-16 rounded"/>
+                                    <img :src="company.logo" class="h-auto max-w-[56px] rounded"/>
                                     <div>
                                         <p>{{company.name}}</p>
                                         <p class="text-sm">{{company.specialists.length}} специалистов</p>
                                     </div>
                                 </div>
                             </router-link>
+                        </div>
+                        <div v-else>
+                            <a :href="company.link" target="_blank" class="cursor-pointer">
+                                <div class="flex flex-col justify-center items-center gap-2">
+                                    <img :src="company.logo" class="h-auto max-w-[56px] rounded"/>
+                                    <p>{{company.name}}</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>

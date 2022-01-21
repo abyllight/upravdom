@@ -50,6 +50,46 @@ const services = [
                         link: 'https://naimi.kz/specialist/13483?work_id=812#/'
                     }
                 ]
+            },
+            {
+                id: 2,
+                name: 'Eco Service',
+                logo: '/images/brands/ecoservice.svg',
+                link: 'https://eco-service.kz/santehnik/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 2,
+                name: 'Алматехник',
+                logo: '/images/brands/almatehnik.png',
+                link: 'https://almatehnic.kz/vizov-santehnika-almaty',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 3,
+                name: 'Сантех Эксперт',
+                logo: '/images/icons/plumbing.png',
+                link: 'https://santeh-expert.kz/kontakty/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 3,
+                name: 'Santeh Lux',
+                logo: '/images/brands/santehlux.png',
+                link: 'https://santeh-lux.kz/contacts/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -118,6 +158,46 @@ const services = [
                         link: 'https://naimi.kz/specialist/232660?work_id=187#/'
                     }
                 ]
+            },
+            {
+                id: 2,
+                name: 'Eco Service',
+                logo: '/images/brands/ecoservice.svg',
+                link: 'https://eco-service.kz/elektrik/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 3,
+                name: 'Electro Uslugi',
+                logo: '/images/icons/electricity.png',
+                link: 'https://electrouslugi.kz/index.php?view=contacts',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 4,
+                name: 'Elektrik-Almaty',
+                logo: '/images/brands/elektrik-almaty.png',
+                link: 'https://elektrik-almaty.kz/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 5,
+                name: 'Elektrik-Almaty',
+                logo: '/images/brands/1elektrik.png',
+                link: 'http://1electrik.kz/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -200,6 +280,36 @@ const services = [
                         link: 'https://naimi.kz/specialist/326328?work_id=134#/'
                     }
                 ]
+            },
+            {
+                id: 2,
+                name: 'Alma Clean',
+                logo: '/images/brands/almaclean.svg',
+                link: 'https://almaclean.kz/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 3,
+                name: 'Cleaning Home',
+                logo: '/images/brands/cleaninghome.jpeg',
+                link: 'https://cleaninghome.kz/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 4,
+                name: 'Top',
+                logo: '/images/brands/top.svg',
+                link: 'https://top.kz/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -261,7 +371,27 @@ const services = [
                         link: 'https://naimi.kz/specialist/48327?work_id=185#/'
                     }
                 ]
-            }
+            },
+            {
+                id: 2,
+                name: 'Mega Master',
+                logo: '/images/icons/painter.png',
+                link: 'https://almaty.megamaster.kz/tag/uslugi-shtukatura',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
+            {
+                id: 3,
+                name: 'Профи',
+                logo: '/images/brands/profi.svg',
+                link: 'https://alm.profi.kz/remont/malyarnye-shtukaturnye-raboty/',
+                description: 'Lorem Ipsum is simply dummy text of the printing ' +
+                    'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
+                    'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
+                    'and scrambled it to make a type specimen book.'
+            },
         ]
     },
     {
@@ -269,7 +399,6 @@ const services = [
         title: 'Перевозка грузов',
         img: '/images/icons/transportation.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -280,8 +409,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -292,8 +420,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -304,8 +431,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 4,
@@ -316,8 +442,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 5,
@@ -328,8 +453,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 6,
@@ -340,8 +464,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -349,7 +472,6 @@ const services = [
         id: 31,
         title: 'Доставка воды',
         img: '/images/icons/water_delivery.png',
-        has_only_companies: true,
         showDiv: false,
         companies: [
             {
@@ -361,8 +483,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -373,8 +494,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -385,8 +505,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 4,
@@ -397,8 +516,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 5,
@@ -409,8 +527,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 6,
@@ -421,8 +538,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 7,
@@ -433,8 +549,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -442,7 +557,6 @@ const services = [
         id: 1,
         title: 'Домофон',
         img: '/images/icons/domofon.png',
-        has_only_companies: true,
         showDiv: false,
         companies: [
             {
@@ -454,8 +568,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -466,8 +579,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -478,8 +590,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 4,
@@ -490,8 +601,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 5,
@@ -502,8 +612,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -512,7 +621,6 @@ const services = [
         title: 'Ремонт квартир',
         img: '/images/icons/renovation.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -523,8 +631,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -535,8 +642,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -547,8 +653,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 4,
@@ -559,8 +664,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 5,
@@ -571,8 +675,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -581,7 +684,6 @@ const services = [
         title: 'Охрана квартир',
         img: '/images/icons/home_security.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -592,8 +694,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -604,8 +705,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -616,8 +716,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -626,7 +725,6 @@ const services = [
         title: 'Химчистка',
         img: '/images/icons/dry_cleaning.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -637,8 +735,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -649,8 +746,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -661,8 +757,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 4,
@@ -673,8 +768,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 5,
@@ -685,8 +779,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -695,7 +788,6 @@ const services = [
         title: 'Дезинфекция',
         img: '/images/icons/disinfection.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -706,8 +798,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -718,8 +809,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -730,8 +820,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 4,
@@ -742,8 +831,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -752,7 +840,6 @@ const services = [
         title: 'Юридические услуги',
         img: '/images/icons/law.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -763,8 +850,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -773,7 +859,6 @@ const services = [
         title: 'Доставка еды',
         img: '/images/icons/food_delivery.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -784,8 +869,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -796,8 +880,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 3,
@@ -808,8 +891,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 4,
@@ -820,8 +902,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 5,
@@ -832,8 +913,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     },
@@ -842,7 +922,6 @@ const services = [
         title: 'Онлайн супермаркет',
         img: '/images/icons/supermarket.png',
         showDiv: false,
-        has_only_companies: true,
         companies: [
             {
                 id: 1,
@@ -853,8 +932,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             },
             {
                 id: 2,
@@ -865,8 +943,7 @@ const services = [
                 description: 'Lorem Ipsum is simply dummy text of the printing ' +
                     'and typesetting industry. Lorem Ipsum has been the industry\'s standard ' +
                     'dummy text ever since the 1500s, when an unknown printer took a galley of type ' +
-                    'and scrambled it to make a type specimen book.',
-                specialists: []
+                    'and scrambled it to make a type specimen book.'
             }
         ]
     }
