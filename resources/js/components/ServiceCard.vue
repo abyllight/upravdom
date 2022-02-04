@@ -27,10 +27,10 @@
                             <router-link :to="{ name: 'Specialists', params: { id: service.id, c_id: company.id } }">
                                 <div
                                     v-if="company.specialists"
-                                    class="flex items-center gap-2"
+                                    class="flex flex-col items-center gap-2"
                                 >
-                                    <img :src="company.logo" class="h-auto max-w-[56px] rounded"/>
-                                    <div>
+                                    <img :src="company.logo" class="h-14 rounded"/>
+                                    <div class="text-center">
                                         <p>{{company.name}}</p>
                                         <p class="text-sm">{{company.specialists.length}} специалистов</p>
                                     </div>
@@ -40,7 +40,7 @@
                         <div v-else>
                             <a :href="company.link" target="_blank" class="cursor-pointer">
                                 <div class="flex flex-col justify-center items-center gap-2">
-                                    <img :src="company.logo" class="h-auto max-w-[56px] rounded"/>
+                                    <img :src="company.logo" class="h-14 rounded"/>
                                     <p>{{company.name}}</p>
                                 </div>
                             </a>
