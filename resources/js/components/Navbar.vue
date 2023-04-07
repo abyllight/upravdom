@@ -4,16 +4,12 @@
             <router-link to="/" class="cursor-pointer">
                 <img :src="logo" class="w-8 md:w-28">
             </router-link>
-            <div class="flex items-center justify-between w-full">
+            <div class="flex items-center w-full">
                 <div>
                     <router-link :to="{name: 'Home', hash: '#s'}" class="cursor-pointer hover:text-orange-400">
                         Услуги для дома
                     </router-link>
                 </div>
-                <a class="flex items-center gap-2 cursor-pointer">
-                    <img src="/images/location.svg" class="w-7"/>
-                    <p class="hover:text-orange-400">Алматы</p>
-                </a>
             </div>
         </div>
     </div>

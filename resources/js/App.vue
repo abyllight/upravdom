@@ -4,7 +4,6 @@
     <div id="services" class="max-w-7xl px-4 mx-auto">
         <router-view/>
     </div>
-    <FooterSection/>
 </template>
 
 <script>
@@ -16,7 +15,6 @@ export default {
     name: "App",
     components: {
         Banner,
-        FooterSection,
         Navbar,
         Home
     },
